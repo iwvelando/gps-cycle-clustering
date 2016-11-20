@@ -11,7 +11,7 @@ The goal of this project is to parse an arbitrary set of GPX-formatted GPS cycli
 
 Here's an example of the result.
 
-![Sample Output](http://imgur.com/olMOUs9)
+![Sample Output](http://i.imgur.com/olMOUs9.png)
 
 The higher values of n (from the color legend) are more popular points, and you can see several roads appearing with a strong consensus. All roads shown have at least a consensus of two different courses.
 
@@ -21,7 +21,7 @@ This code has been tested on python 2.7 and 3.5.
 
 # Configuration
 
-All .gpx files should be placed under the `courses` directory. After that all that's left to do is run `gps_cluster_parallel.py`.
+Create a directory called `courses` in the same directory as the python script. All .gpx files should be placed under the `courses` directory. After that all that's left to do is run `gps_cluster_parallel.py`.
 
 # Issues
 
